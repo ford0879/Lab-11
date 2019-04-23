@@ -263,6 +263,10 @@ public class GraphicalCalculatorFrame extends JFrame
 				{
 					operators[1] = content;
 				}
+				else
+				{
+					success = false;
+				}
 			}
 			else
 			{
@@ -277,6 +281,10 @@ public class GraphicalCalculatorFrame extends JFrame
 				else if(selectedRegion == 4)
 				{
 					operands[2] = Integer.parseInt(content);
+				}
+				else
+				{
+					success = false;
 				}
 			}
 
